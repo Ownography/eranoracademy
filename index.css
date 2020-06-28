@@ -1,10 +1,10 @@
 body {
-    background-image: url("bg.png");
+    background-image: url("https://imagehost.imageupload.net/2020/06/28/ricepaper_v3_2X.png");
     background-repeat: repeat;
 }
 
 .navbar.bg-light {
-       background-color: #f3e2b3 !important;
+       background-color: #89cff0 !important;
        .form-control {
                 border-radius: 4.25rem;
                    
