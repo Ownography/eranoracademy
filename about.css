@@ -1,0 +1,53 @@
+body {
+    background-image: url("https://imagehost.imageupload.net/2020/06/28/ricepaper_v3_2X.png");
+    background-repeat: repeat;
+}
+
+.navbar.bg-light {
+       background-color: #89cff0 !important;
+       .form-control {
+                border-radius: 4.25rem;
+                   
+       }
+        
+}
+
+.image-class {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    position: relative;
+}
+
+/* Make the image responsive */
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.container .btn:hover {
+    background-color: black;
+
+}
